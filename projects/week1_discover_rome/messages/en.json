@@ -1,0 +1,152 @@
+{
+  "hero": {
+    "title": "Discover Rome",
+    "subtitle": "Your guide to the Eternal City"
+  },
+  "nav": {
+    "attractions": "Attractions",
+    "food": "Food",
+    "accommodation": "Stay",
+    "weather": "Weather",
+    "transport": "Transport",
+    "tips": "Tips"
+  },
+  "attractions": {
+    "title": "Attractions",
+    "colosseum": {
+      "title": "Colosseum",
+      "subtitle": "Ancient Amphitheater",
+      "description": "The iconic symbol of Rome and the largest amphitheater ever built. Book tickets in advance to avoid long queues."
+    },
+    "vatican": {
+      "title": "Vatican Museums",
+      "subtitle": "Art & History",
+      "description": "Home to some of the world's most important art collections, including the Sistine Chapel."
+    },
+    "trevi": {
+      "title": "Trevi Fountain",
+      "subtitle": "Baroque Fountain",
+      "description": "The largest Baroque fountain in Rome. Don't forget to throw a coin to ensure your return to the city!"
+    }
+  },
+  "food": {
+    "title": "Food",
+    "local": {
+      "title": "Local Cuisine",
+      "subtitle": "Must-try Roman Dishes",
+      "items": [
+        "Pasta alla Carbonara",
+        "Cacio e Pepe",
+        "Roman-style Pizza",
+        "Supplì (Rice Balls)",
+        "Artichokes (Carciofi)"
+      ]
+    },
+    "tips": {
+      "title": "Dining Tips",
+      "subtitle": "How to Eat Like a Local",
+      "items": [
+        "Lunch: 12:30 - 2:30 PM",
+        "Dinner: 7:30 - 10:30 PM",
+        "Aperitivo: 6:00 - 8:00 PM",
+        "Avoid tourist trap restaurants",
+        "Reservations recommended for dinner"
+      ]
+    }
+  },
+  "accommodation": {
+    "title": "Stay",
+    "areas": {
+      "centro": {
+        "title": "Centro Storico",
+        "subtitle": "Historic Center",
+        "description": "Perfect for first-time visitors. Walking distance to major attractions. Higher prices but worth the convenience."
+      },
+      "trastevere": {
+        "title": "Trastevere",
+        "subtitle": "Charming & Bohemian",
+        "description": "Picturesque neighborhood with great restaurants and nightlife. Popular among young travelers."
+      },
+      "monti": {
+        "title": "Monti",
+        "subtitle": "Hip & Local",
+        "description": "Trendy area with boutiques and cafes. Close to the Colosseum but less touristy."
+      }
+    }
+  },
+  "weather": {
+    "title": "Best Time to Visit",
+    "subtitle": "Seasonal Guide",
+    "seasons": {
+      "spring": {
+        "title": "Spring (Mar-May)",
+        "description": "Mild temperatures, occasional rain. Perfect for sightseeing."
+      },
+      "summer": {
+        "title": "Summer (Jun-Aug)",
+        "description": "Hot and crowded. Early morning or evening visits recommended."
+      },
+      "fall": {
+        "title": "Fall (Sep-Nov)",
+        "description": "Pleasant weather, fewer crowds. Ideal for outdoor activities."
+      },
+      "winter": {
+        "title": "Winter (Dec-Feb)",
+        "description": "Cool and less crowded. Good for museum visits and winter sales."
+      }
+    }
+  },
+  "transport": {
+    "getting_around": {
+      "title": "Getting Around",
+      "subtitle": "Public Transportation",
+      "items": [
+        "Metro: 2 main lines (A and B)",
+        "Bus: Extensive network",
+        "Tram: 6 lines across the city",
+        "Walking: Best for city center",
+        "Taxi: Use official white taxis"
+      ]
+    },
+    "airport": {
+      "title": "From the Airport",
+      "subtitle": "Airport Transfers",
+      "items": [
+        "Leonardo Express (Fiumicino)",
+        "Terravision Bus Service",
+        "Fixed-rate Taxis",
+        "Private Transfers",
+        "Car Rental Options"
+      ]
+    }
+  },
+  "tips": {
+    "cultural": {
+      "title": "Cultural Tips",
+      "items": [
+        "Dress modestly for churches",
+        "Learn basic Italian phrases",
+        "Respect siesta hours",
+        "Tipping is not mandatory"
+      ]
+    },
+    "safety": {
+      "title": "Safety Tips",
+      "items": [
+        "Watch for pickpockets",
+        "Keep valuables secure",
+        "Use licensed taxis",
+        "Stay aware in crowds"
+      ]
+    },
+    "money": {
+      "title": "Money Tips",
+      "items": [
+        "Carry some cash",
+        "Use bank ATMs",
+        "Check for card fees",
+        "Keep receipts"
+      ]
+    }
+  }
+}
