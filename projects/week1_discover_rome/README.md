@@ -1,6 +1,6 @@
 # week1_discover_rome
 
-Cloudflare Pages URL: WILL_BE_ADDED_LATER
+Cloudflare Pages URL: https://discover-rome.pages.dev
 
 ## Tech Stack:
 
