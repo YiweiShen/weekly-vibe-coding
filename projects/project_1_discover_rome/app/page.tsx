@@ -18,9 +18,18 @@ const messages = {
 }
 
 export default function Home() {
-  const [activeTab, setActiveTab] = useState('attractions')
   const [language, setLanguage] = useState('en')
   const [translations, setTranslations] = useState<any>(null)
+  const [theme, setTheme] = useState('light')
+
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', theme === 'dark')
+  }, [theme])
+
+  const toggleTheme = () => {
+    setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'))
+  }
+
   // The buildTime will auto-update on code pushes through an environment variable.
   const buildTime = process.env.NEXT_PUBLIC_BUILD_TIME || 'beta'
 
@@ -39,9 +48,15 @@ export default function Home() {
 
   return (
     <main className="relative min-h-screen bg-[#faf9f6]">
-      <div className="absolute top-4 right-4 z-10">
+      <div className="absolute top-4 right-4 left-4 flex justify-between z-10">
         <Button onClick={toggleLanguage} variant="outline">
           {language === 'en' ? '中文' : 'English'}
+        </Button>
+
+        <Button onClick={toggleTheme} variant="outline">
+          {theme === 'light'
+            ? translations.themeToggle.light
+            : translations.themeToggle.dark}
         </Button>
       </div>
 
@@ -68,47 +83,35 @@ export default function Home() {
 
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 py-8 md:py-12">
-        <Tabs defaultValue="attractions" className="space-y-6 md:space-y-8">
-          <TabsList className="flex overflow-x-auto gap-2 px-2 md:px-0 md:grid md:grid-cols-6 md:gap-4">
+        <Tabs defaultValue="attractions" className="gap-6 md:gap-8">
+          <TabsList className="flex gap-2">
             <TabsTrigger
               value="attractions"
-              className="flex items-center gap-2 whitespace-nowrap"
+              className="flex items-center gap-2"
             >
               <MapPin className="h-4 w-4" />
               {translations.nav.attractions}
             </TabsTrigger>
-            <TabsTrigger
-              value="food"
-              className="flex items-center gap-2 whitespace-nowrap"
-            >
+            <TabsTrigger value="food" className="flex items-center gap-2">
               <Utensils className="h-4 w-4" />
               {translations.nav.food}
             </TabsTrigger>
             <TabsTrigger
               value="accommodation"
-              className="flex items-center gap-2 whitespace-nowrap"
+              className="flex items-center gap-2"
             >
               <Hotel className="h-4 w-4" />
               {translations.nav.accommodation}
             </TabsTrigger>
-            <TabsTrigger
-              value="weather"
-              className="flex items-center gap-2 whitespace-nowrap"
-            >
+            <TabsTrigger value="weather" className="flex items-center gap-2">
               <Sun className="h-4 w-4" />
               {translations.nav.weather}
             </TabsTrigger>
-            <TabsTrigger
-              value="transport"
-              className="flex items-center gap-2 whitespace-nowrap"
-            >
+            <TabsTrigger value="transport" className="flex items-center gap-2">
               <Plane className="h-4 w-4" />
               {translations.nav.transport}
             </TabsTrigger>
-            <TabsTrigger
-              value="tips"
-              className="flex items-center gap-2 whitespace-nowrap"
-            >
+            <TabsTrigger value="tips" className="flex items-center gap-2">
               <Info className="h-4 w-4" />
               {translations.nav.tips}
             </TabsTrigger>
@@ -271,29 +274,37 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-                  <div className="p-4 bg-blue-50 rounded-lg">
-                    <h3 className="font-semibold mb-2">
+                  <div className="p-4 bg-blue-50 dark:bg-blue-900 rounded-lg">
+                    <h3 className="font-semibold mb-2 text-gray-900 dark:text-gray-100">
                       {translations.weather.seasons.spring.title}
                     </h3>
-                    <p>{translations.weather.seasons.spring.description}</p>
+                    <p className="text-gray-800 dark:text-gray-200">
+                      {translations.weather.seasons.spring.description}
+                    </p>
                   </div>
-                  <div className="p-4 bg-yellow-50 rounded-lg">
-                    <h3 className="font-semibold mb-2">
+                  <div className="p-4 bg-yellow-50 dark:bg-yellow-900 rounded-lg">
+                    <h3 className="font-semibold mb-2 text-gray-900 dark:text-gray-100">
                       {translations.weather.seasons.summer.title}
                     </h3>
-                    <p>{translations.weather.seasons.summer.description}</p>
+                    <p className="text-gray-800 dark:text-gray-200">
+                      {translations.weather.seasons.summer.description}
+                    </p>
                   </div>
-                  <div className="p-4 bg-orange-50 rounded-lg">
-                    <h3 className="font-semibold mb-2">
+                  <div className="p-4 bg-orange-50 dark:bg-orange-900 rounded-lg">
+                    <h3 className="font-semibold mb-2 text-gray-900 dark:text-gray-100">
                       {translations.weather.seasons.fall.title}
                     </h3>
-                    <p>{translations.weather.seasons.fall.description}</p>
+                    <p className="text-gray-800 dark:text-gray-200">
+                      {translations.weather.seasons.fall.description}
+                    </p>
                   </div>
-                  <div className="p-4 bg-gray-50 rounded-lg">
-                    <h3 className="font-semibold mb-2">
+                  <div className="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                    <h3 className="font-semibold mb-2 text-gray-900 dark:text-gray-100">
                       {translations.weather.seasons.winter.title}
                     </h3>
-                    <p>{translations.weather.seasons.winter.description}</p>
+                    <p className="text-gray-800 dark:text-gray-200">
+                      {translations.weather.seasons.winter.description}
+                    </p>
                   </div>
                 </div>
               </CardContent>
