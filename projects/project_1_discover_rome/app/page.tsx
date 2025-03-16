@@ -393,7 +393,7 @@ export default function Home() {
         </Tabs>
       </div>
       <div className="absolute bottom-4 right-4 text-gray-500 text-xs z-10">
-        {buildTime}
+        Version: {buildTime}
       </div>
     </main>
   )
