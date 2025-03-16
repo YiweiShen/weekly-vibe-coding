@@ -1,4 +1,4 @@
-# week1_discover_rome
+# project_1_discover_rome
 
 Cloudflare Pages URL: https://discover-rome.pages.dev
 
