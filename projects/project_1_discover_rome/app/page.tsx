@@ -67,34 +67,46 @@ export default function Home() {
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 py-8 md:py-12">
         <Tabs defaultValue="attractions" className="space-y-6 md:space-y-8">
-          <TabsList className="grid w-full grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 md:gap-4">
+          <TabsList className="flex overflow-x-auto gap-2 px-2 md:px-0 md:grid md:grid-cols-6 md:gap-4">
             <TabsTrigger
               value="attractions"
-              className="flex items-center gap-2"
+              className="flex items-center gap-2 whitespace-nowrap"
             >
               <MapPin className="h-4 w-4" />
               {translations.nav.attractions}
             </TabsTrigger>
-            <TabsTrigger value="food" className="flex items-center gap-2">
+            <TabsTrigger
+              value="food"
+              className="flex items-center gap-2 whitespace-nowrap"
+            >
               <Utensils className="h-4 w-4" />
               {translations.nav.food}
             </TabsTrigger>
             <TabsTrigger
               value="accommodation"
-              className="flex items-center gap-2"
+              className="flex items-center gap-2 whitespace-nowrap"
             >
               <Hotel className="h-4 w-4" />
               {translations.nav.accommodation}
             </TabsTrigger>
-            <TabsTrigger value="weather" className="flex items-center gap-2">
+            <TabsTrigger
+              value="weather"
+              className="flex items-center gap-2 whitespace-nowrap"
+            >
               <Sun className="h-4 w-4" />
               {translations.nav.weather}
             </TabsTrigger>
-            <TabsTrigger value="transport" className="flex items-center gap-2">
+            <TabsTrigger
+              value="transport"
+              className="flex items-center gap-2 whitespace-nowrap"
+            >
               <Plane className="h-4 w-4" />
               {translations.nav.transport}
             </TabsTrigger>
-            <TabsTrigger value="tips" className="flex items-center gap-2">
+            <TabsTrigger
+              value="tips"
+              className="flex items-center gap-2 whitespace-nowrap"
+            >
               <Info className="h-4 w-4" />
               {translations.nav.tips}
             </TabsTrigger>
