@@ -2,9 +2,12 @@
 const nextConfig = {
   output: 'export',
   eslint: {
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: true
   },
   images: { unoptimized: true },
-};
+  env: {
+    NEXT_PUBLIC_BUILD_TIME: new Date().toISOString()
+  }
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig

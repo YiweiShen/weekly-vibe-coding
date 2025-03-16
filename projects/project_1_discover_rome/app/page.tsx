@@ -21,6 +21,8 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState('attractions')
   const [language, setLanguage] = useState('en')
   const [translations, setTranslations] = useState<any>(null)
+  // The buildTime will auto-update on code pushes through an environment variable.
+  const buildTime = process.env.NEXT_PUBLIC_BUILD_TIME || 'beta'
 
   const toggleLanguage = async () => {
     const newLang = language === 'en' ? 'zh' : 'en'
@@ -36,7 +38,7 @@ export default function Home() {
   if (!translations) return null
 
   return (
-    <main className="min-h-screen bg-[#faf9f6]">
+    <main className="relative min-h-screen bg-[#faf9f6]">
       <div className="absolute top-4 right-4 z-10">
         <Button onClick={toggleLanguage} variant="outline">
           {language === 'en' ? '中文' : 'English'}
@@ -389,6 +391,9 @@ export default function Home() {
             </div>
           </TabsContent>
         </Tabs>
+      </div>
+      <div className="absolute bottom-4 right-4 text-gray-500 text-xs z-10">
+        {buildTime}
       </div>
     </main>
   )
