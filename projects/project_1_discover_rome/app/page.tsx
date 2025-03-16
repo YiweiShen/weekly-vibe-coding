@@ -445,7 +445,7 @@ export default function Home() {
           </TabsContent>
         </Tabs>
       </div>
-      <div className="absolute bottom-4 right-4 text-gray-500 text-xs z-10">
+      <div className="absolute bottom-1 right-4 text-gray-500 text-xs z-10">
         Version: {buildTime}
       </div>
     </main>
