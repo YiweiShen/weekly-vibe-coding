@@ -11,7 +11,7 @@ A collection of my weekend coding experiments, exploring new ideas and technolog
 
 🛠️ Tech Stack: Next.js, shadcn/ui, Tailwind CSS, TypeScript, GPT-4o, Cursor, Cloudflare Pages, Bolt, Stackblitz
 
-A web app designed to help users explore hidden gems in Rome, blending interactive visuals with curated insights.
+An interactive web app showcasing Rome's hidden gems with curated insights, available in English and Chinese.
 
 
 ### Project 2: Work in Progress
