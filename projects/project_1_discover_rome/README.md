@@ -6,5 +6,5 @@ Cloudflare Pages URL: https://discover-rome.pages.dev
 
 - Brainstorm ideas with ChatGPT
 - Next.js-Shadcn template using bolt.new
-- Make it mobile-friendly with Cursor
+- Make it mobile-friendly with Cursor IDE
 - Deploy using Cloudflare Pages
