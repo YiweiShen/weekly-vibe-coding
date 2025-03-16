@@ -87,32 +87,74 @@ export default function Home() {
           <TabsList className="flex gap-2">
             <TabsTrigger
               value="attractions"
-              className="flex items-center gap-2"
+              className="flex items-center gap-2 md:hidden"
             >
               <MapPin className="h-4 w-4" />
+            </TabsTrigger>
+            <TabsTrigger
+              value="food"
+              className="flex items-center gap-2 md:hidden"
+            >
+              <Utensils className="h-4 w-4" />
+            </TabsTrigger>
+            <TabsTrigger
+              value="accommodation"
+              className="flex items-center gap-2 md:hidden"
+            >
+              <Hotel className="h-4 w-4" />
+            </TabsTrigger>
+            <TabsTrigger
+              value="weather"
+              className="flex items-center gap-2 md:hidden"
+            >
+              <Sun className="h-4 w-4" />
+            </TabsTrigger>
+            <TabsTrigger
+              value="transport"
+              className="flex items-center gap-2 md:hidden"
+            >
+              <Plane className="h-4 w-4" />
+            </TabsTrigger>
+            <TabsTrigger
+              value="tips"
+              className="flex items-center gap-2 md:hidden"
+            >
+              <Info className="h-4 w-4" />
+            </TabsTrigger>
+            <TabsTrigger
+              value="attractions"
+              className="hidden md:flex items-center gap-2"
+            >
               {translations.nav.attractions}
             </TabsTrigger>
-            <TabsTrigger value="food" className="flex items-center gap-2">
-              <Utensils className="h-4 w-4" />
+            <TabsTrigger
+              value="food"
+              className="hidden md:flex items-center gap-2"
+            >
               {translations.nav.food}
             </TabsTrigger>
             <TabsTrigger
               value="accommodation"
-              className="flex items-center gap-2"
+              className="hidden md:flex items-center gap-2"
             >
-              <Hotel className="h-4 w-4" />
               {translations.nav.accommodation}
             </TabsTrigger>
-            <TabsTrigger value="weather" className="flex items-center gap-2">
-              <Sun className="h-4 w-4" />
+            <TabsTrigger
+              value="weather"
+              className="hidden md:flex items-center gap-2"
+            >
               {translations.nav.weather}
             </TabsTrigger>
-            <TabsTrigger value="transport" className="flex items-center gap-2">
-              <Plane className="h-4 w-4" />
+            <TabsTrigger
+              value="transport"
+              className="hidden md:flex items-center gap-2"
+            >
               {translations.nav.transport}
             </TabsTrigger>
-            <TabsTrigger value="tips" className="flex items-center gap-2">
-              <Info className="h-4 w-4" />
+            <TabsTrigger
+              value="tips"
+              className="hidden md:flex items-center gap-2"
+            >
               {translations.nav.tips}
             </TabsTrigger>
           </TabsList>
