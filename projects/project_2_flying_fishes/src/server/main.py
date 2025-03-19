@@ -23,3 +23,8 @@ async def reset_emails():
     global email_count
     email_count = 0
     return {"message": "Email count reset", "total_emails": email_count}
+
+
+@app.get("/")
+async def health_check():
+    return {"status": "ok"}
