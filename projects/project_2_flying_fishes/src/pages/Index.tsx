@@ -8,6 +8,7 @@ import { useToast } from '@/hooks/use-toast'
 const Index = () => {
   const [showOverlay, setShowOverlay] = useState(true)
   const [email, setEmail] = useState('')
+  const [subscriberCount, setSubscriberCount] = useState(0)
   const { toast } = useToast()
 
   useEffect(() => {
@@ -18,22 +19,95 @@ const Index = () => {
     return () => clearTimeout(timer)
   }, [])
 
-  const handleSubscribe = (e: React.FormEvent) => {
+  useEffect(() => {
+    const fetchSubscriberCount = async () => {
+      try {
+        const response = await fetch(
+          'https://majestic-escarpment-fc69.codehooks.io/count',
+          {
+            method: 'GET',
+            headers: {
+              'Content-Type': 'application/json',
+              'x-apikey': '8eeea164-9ec1-4b65-b5ac-f28c1ac9b9de'
+            }
+          }
+        )
+        const data = await response.json()
+        const count = Number.isInteger(data.total_emails)
+          ? data.total_emails
+          : parseInt(data.total_emails) || 0
+        setSubscriberCount(count)
+      } catch (error) {
+        console.error('Failed to fetch subscriber count:', error)
+      }
+    }
+
+    fetchSubscriberCount()
+  }, [])
+
+  const handleSubscribe = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!email || !email.includes('@')) {
       toast({
         title: 'Invalid email',
         description: 'Please enter a valid email address',
-        variant: 'destructive'
+        variant: 'destructive',
+        duration: 3000
       })
       return
     }
 
-    toast({
-      title: 'Subscribed!',
-      description: 'Thanks for joining our adventure!'
-    })
-    setEmail('')
+    try {
+      await fetch('https://majestic-escarpment-fc69.codehooks.io/increase', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-apikey': '8eeea164-9ec1-4b65-b5ac-f28c1ac9b9de'
+        }
+      })
+
+      setSubscriberCount((prevCount) => prevCount + 1)
+
+      toast({
+        title: 'Subscribed!',
+        description: 'Thanks for joining our adventure!',
+        duration: 3000
+      })
+      setEmail('')
+    } catch (error) {
+      console.error(error)
+    }
+  }
+
+  const handleClearAll = async () => {
+    try {
+      await fetch('https://majestic-escarpment-fc69.codehooks.io/reset', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-apikey': '8eeea164-9ec1-4b65-b5ac-f28c1ac9b9de'
+        },
+        body: JSON.stringify({ key: 'value' })
+      })
+
+      setSubscriberCount(0)
+
+      toast({
+        title: 'All Subscriptions Cleared',
+        description: 'All subscriber data has been reset.',
+        variant: 'destructive',
+        duration: 3000
+      })
+    } catch (error) {
+      console.error('Failed to reset subscriber count:', error)
+
+      toast({
+        title: 'Error',
+        description: 'Failed to clear subscriptions. Please try again.',
+        variant: 'destructive',
+        duration: 3000
+      })
+    }
   }
 
   return (
@@ -44,6 +118,9 @@ const Index = () => {
             <h2 className="text-xl font-semibold mb-2 text-center">
               Fly With Us
             </h2>
+            <p className="text-center text-sm text-gray-500 mb-4">
+              {subscriberCount} people have already subscribed!
+            </p>
             <div className="flex gap-2">
               <Input
                 type="email"
@@ -55,6 +132,17 @@ const Index = () => {
               <Button type="submit">Subscribe</Button>
             </div>
           </form>
+
+          {/* Clear All Subscriptions Button */}
+          <div className="p-4 text-center">
+            <Button
+              variant="destructive"
+              onClick={handleClearAll}
+              className="w-full"
+            >
+              Clear All Subscriptions
+            </Button>
+          </div>
         </Card>
       </div>
 
