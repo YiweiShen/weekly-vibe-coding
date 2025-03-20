@@ -1,5 +1,7 @@
 # project_1_discover_rome
 
+![](./img/project_1.jpg)
+
 Cloudflare Pages URL: https://discover-rome.pages.dev
 
 ## Stack:

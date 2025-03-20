@@ -1,5 +1,7 @@
 # project_2_flying_fishes/
 
+![](./img/project_2.jpg)
+
 Cloudflare Pages URL: https://flying-fishes.pages.dev
 
 ## Stack:
