@@ -10,3 +10,4 @@ Cloudflare Pages URL: https://flying-fishes.pages.dev
 - Update the UI using [VSCode Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 - [Three.js](https://threejs.org/) for 3D rendering
 - Deploy on [Cloudflare Pages](https://pages.cloudflare.com/)
+- Build CRUD API on [Codehooks](https://codehooks.io)
