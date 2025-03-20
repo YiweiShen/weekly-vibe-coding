@@ -16,6 +16,6 @@ An interactive web app showcasing Rome's hidden gems with curated insights, avai
 
 🌐 Deployed at: [https://flying-fishes.pages.dev](https://flying-fishes.pages.dev)
 
-🛠️ Stack: Lovable, React, Vite, shadcn/ui, Three.js, gpt-4o-copilot, VS Code, Cloudflare Pages
+🛠️ Stack: Lovable, React, Vite, shadcn/ui, Three.js, gpt-4o-copilot, VS Code, Cloudflare Pages, Codehooks
 
 A single-page web app featuring a 3D flying fish animation. A short-term overlay is used to display the app introduction. An email subscription is available for users to receive updates.
