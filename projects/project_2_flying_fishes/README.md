@@ -1,8 +1,6 @@
 # project_2_flying_fishes/
 
-![](./img/project_2.jpg)
-
-Cloudflare Pages URL: https://flying-fishes.pages.dev
+![](./src/img/project_2.jpg)
 
 ## Stack:
 
@@ -13,3 +11,7 @@ Cloudflare Pages URL: https://flying-fishes.pages.dev
 - [Three.js](https://threejs.org/) for 3D rendering
 - Deploy on [Cloudflare Pages](https://pages.cloudflare.com/)
 - Build CRUD API on [Codehooks](https://codehooks.io)
+
+## URL
+
+Cloudflare Pages: [https://flying-fishes.pages.dev](https://flying-fishes.pages.dev)
