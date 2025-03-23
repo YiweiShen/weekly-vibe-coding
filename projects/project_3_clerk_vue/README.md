@@ -19,4 +19,4 @@
 
 ## URL
 
-Cloudflare Pages: [https://clerk_vue.pages.dev](https://clerk_vue.pages.dev)
+Cloudflare Pages: [https://clerk-vue.pages.dev](https://clerk-vue.pages.dev)
