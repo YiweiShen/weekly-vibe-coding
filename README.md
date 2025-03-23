@@ -26,4 +26,12 @@ A single-page web app featuring a 3D flying fish animation. A short-term overlay
 
 🛠️ Stack: Replit, Clerk, Vue 3, Vite, TypeScript, gpt-4o-copilot, Cloudflare Pages
 
-A web app that allows users to sign in with Clerk and create a new account. The app is built using Vue 3 and Vite, and it features a responsive design for optimal user experience. The app is deployed on Cloudflare Pages for easy access and scalability.
+A web app that allows users to sign in with Clerk. The app is built using Vue 3 and Vite.
+
+### Project 4: [Cat Adoption API](https://github.com/YiweiShen/weekly-vibe-coding/tree/main/projects/project_4_cat_adoption_api)
+
+🌐 Deployed at: [https://p4_test-fastcyanrabbit.web.val.run/docs](https://p4_test-fastcyanrabbit.web.val.run/docs)
+
+🛠️ Stack: Val Town, Townie, Express.js, Swagger UI, Swagger JSDoc, gpt-4o-mini
+
+A RESTful API for managing cat adoption information. It allows users to interact with data related to available cats, including listing, adding, and removing cats from the adoption list.
