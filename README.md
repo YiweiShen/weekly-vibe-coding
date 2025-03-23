@@ -19,3 +19,11 @@ An interactive web app showcasing Rome's hidden gems with curated insights, avai
 🛠️ Stack: Lovable, React, Vite, shadcn/ui, Three.js, gpt-4o-copilot, VS Code, Cloudflare Pages, Codehooks
 
 A single-page web app featuring a 3D flying fish animation. A short-term overlay is used to display the app introduction. An email subscription is available for users to receive updates.
+
+### Project 3: [Clerk Vue](https://github.com/YiweiShen/weekly-vibe-coding/tree/main/projects/project_3_clerk_vue)
+
+🌐 Deployed at: [https://clerk-vue.pages.dev](https://clerk-vue.pages.dev)
+
+🛠️ Stack: Replit, Clerk, Vue 3, Vite, TypeScript, gpt-4o-copilot, Cloudflare Pages
+
+A web app that allows users to sign in with Clerk and create a new account. The app is built using Vue 3 and Vite, and it features a responsive design for optimal user experience. The app is deployed on Cloudflare Pages for easy access and scalability.
