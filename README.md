@@ -6,6 +6,8 @@ A collection of my weekend coding experiments, exploring new ideas and technolog
 
 ### Project 1: [Discover Rome](https://github.com/YiweiShen/weekly-vibe-coding/tree/main/projects/project_1_discover_rome)
 
+![](./projects/project_1_discover_rome/img/project_1.jpg)
+
 🌐 Deployed at: [https://discover-rome.pages.dev](https://discover-rome.pages.dev)
 
 🛠️ Stack: Next.js, shadcn/ui, Tailwind CSS, TypeScript, GPT-4o, Cursor, Cloudflare Pages, Bolt, Stackblitz
@@ -13,6 +15,8 @@ A collection of my weekend coding experiments, exploring new ideas and technolog
 An interactive web app showcasing Rome's hidden gems with curated insights, available in English and Chinese. The site features both light and dark modes and is mobile-friendly for an optimal user experience.
 
 ### Project 2: [Flying Fishes](https://github.com/YiweiShen/weekly-vibe-coding/tree/main/projects/project_2_flying_fishes)
+
+![](./projects/project_2_flying_fishes/src/img/project_2.jpg)
 
 🌐 Deployed at: [https://flying-fishes.pages.dev](https://flying-fishes.pages.dev)
 
@@ -22,6 +26,8 @@ A single-page web app featuring a 3D flying fish animation. A short-term overlay
 
 ### Project 3: [Clerk Vue](https://github.com/YiweiShen/weekly-vibe-coding/tree/main/projects/project_3_clerk_vue)
 
+![](./projects/project_3_clerk_vue/img/after_login.jpg)
+
 🌐 Deployed at: [https://clerk-vue.pages.dev](https://clerk-vue.pages.dev)
 
 🛠️ Stack: Replit, Clerk, Vue 3, Vite, TypeScript, gpt-4o-copilot, Cloudflare Pages
@@ -29,6 +35,8 @@ A single-page web app featuring a 3D flying fish animation. A short-term overlay
 A web app that allows users to sign in with Clerk. The app is built using Vue 3 and Vite.
 
 ### Project 4: [Cat Adoption API](https://github.com/YiweiShen/weekly-vibe-coding/tree/main/projects/project_4_cat_adoption_api)
+
+![](./projects/project_4_cat_adoption_api/img/project_4_cat_adoption_api.jpg)
 
 🌐 Deployed at: [https://p4_test-fastcyanrabbit.web.val.run/docs](https://p4_test-fastcyanrabbit.web.val.run/docs)
 
