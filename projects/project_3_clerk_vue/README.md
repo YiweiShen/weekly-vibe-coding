@@ -1,11 +1,11 @@
 # project_3_clerk_vue
 
-## Screenshots
+## Before Login
 
-**Before Login**
 ![](./img/before_login.jpg)
 
-**After Login**
+## After Login
+
 ![](./img/after_login.jpg)
 
 ## Stack
