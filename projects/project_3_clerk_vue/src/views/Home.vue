@@ -3,28 +3,30 @@ import { SignedIn, SignedOut } from '@clerk/vue'
 </script>
 
 <template>
-  <SignedOut>
-    <div class="login-container">
-      <div class="content">
-        <img src="../assets/logo.svg" alt="Logo" class="logo" />
-        <h1 class="animate-text">Welcome to Our Platform</h1>
-        <p class="animate-text-delay">Sign in to access your account</p>
-        <p>Test phone number: +15555550100</p>
-        <p>Test verification code: 424242</p>
+  <div>
+    <SignedOut>
+      <div class="login-container">
+        <div class="content">
+          <img src="../assets/logo.svg" alt="Logo" class="logo" />
+          <h1 class="animate-text">Welcome to Our Platform</h1>
+          <p class="animate-text-delay">Sign in to access your account</p>
+          <p>Test phone number: +15555550100</p>
+          <p>Test verification code: 424242</p>
+        </div>
       </div>
-    </div>
-  </SignedOut>
-  <SignedIn>
-    <div class="login-container">
-      <div class="content">
-        <img src="../assets/logo.svg" alt="Logo" class="logo" />
-        <h1 class="animate-text">Welcome back!</h1>
-        <p class="animate-text-delay">
-          Explore your dashboard and make the most of your journey with us.
-        </p>
+    </SignedOut>
+    <SignedIn>
+      <div class="login-container">
+        <div class="content">
+          <img src="../assets/logo.svg" alt="Logo" class="logo" />
+          <h1 class="animate-text">Welcome back!</h1>
+          <p class="animate-text-delay">
+            Explore your dashboard and make the most of your journey with us.
+          </p>
+        </div>
       </div>
-    </div>
-  </SignedIn>
+    </SignedIn>
+  </div>
 </template>
 
 <style scoped>
