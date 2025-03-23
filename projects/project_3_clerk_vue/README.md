@@ -4,7 +4,7 @@
 
 ![](./img/before_login.jpg)
 
-## After Login
+## After Authentication
 
 ![](./img/after_login.jpg)
 
