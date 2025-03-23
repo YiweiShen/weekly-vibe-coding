@@ -28,7 +28,7 @@ import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/vue'
   <footer class="footer">
     <div class="footer-content">
       <div class="footer-section">
-        <p>&copy; 2024 Our Platform. All rights reserved.</p>
+        <p>&copy; 2025 Our Platform. All rights reserved.</p>
       </div>
       <div class="footer-section">
         <router-link to="/privacy" class="footer-link"
