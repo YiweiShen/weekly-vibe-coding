@@ -1,4 +1,4 @@
-# project_2_flying_fishes/
+# project_2_flying_fishes
 
 ![](./src/img/project_2.jpg)
 
