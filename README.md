@@ -43,3 +43,13 @@ A web app that allows users to sign in with Clerk. The app is built using Vue 3 
 🛠️ Stack: Val Town, Townie, Express.js, Swagger UI, Swagger JSDoc, gpt-4o-mini
 
 A RESTful API for managing cat adoption information. It allows users to interact with data related to available cats, including listing, adding, and removing cats from the adoption list.
+
+### Project 5: [Animate Search](https://github.com/YiweiShen/weekly-vibe-coding/tree/main/projects/project_5_animate_search)
+
+![](./projects/project_5_animate_search/img/animate_search.jpg)
+
+🌐 Deployed at: [https://animate-search.pages.dev](https://animate-search.pages.dev)
+
+🛠️ Stack: V0, Next.js, lucide-react, tailwindcss-animate, ChatGPT, Cloudflare Pages
+
+A search bar with a unique animation effect resembling a starship entering hyperspace.
