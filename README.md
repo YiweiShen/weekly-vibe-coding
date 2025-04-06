@@ -1,5 +1,8 @@
 # 🌊 Weekly Vibe Coding
 
+![GitHub top language](https://img.shields.io/github/languages/top/YiweiShen/weekly-vibe-coding)
+![GitHub last commit](https://img.shields.io/github/last-commit/YiweiShen/weekly-vibe-coding)
+
 A collection of my weekend coding experiments, exploring new ideas and technologies.
 
 ## 🚀 Projects
