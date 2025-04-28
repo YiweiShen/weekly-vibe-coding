@@ -56,3 +56,11 @@ A RESTful API for managing cat adoption information. It allows users to interact
 🛠️ Stack: V0, Next.js, lucide-react, tailwindcss-animate, ChatGPT, Cloudflare Pages
 
 A search bar with a unique animation effect resembling a starship entering hyperspace.
+
+### Project 6: [Flappy Bird](https://github.com/YiweiShen/weekly-vibe-coding/tree/main/projects/project_6_flappy_bird)
+
+🌐 Deployed at: [https://7tpg5v7ind.app.yourware.so/](https://7tpg5v7ind.app.yourware.so/)
+
+🛠️ Stack: ChatGPT, Yourware
+
+A modern-looking Flappy Bird clone.
