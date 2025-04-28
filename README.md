@@ -59,6 +59,8 @@ A search bar with a unique animation effect resembling a starship entering hyper
 
 ### Project 6: [Flappy Bird](https://github.com/YiweiShen/weekly-vibe-coding/tree/main/projects/project_6_flappy_bird)
 
+![](./projects/project_6_flappy_bird/img/flappy_bird.jpg)
+
 🌐 Deployed at: [https://7tpg5v7ind.app.yourware.so/](https://7tpg5v7ind.app.yourware.so/)
 
 🛠️ Stack: ChatGPT, Yourware
