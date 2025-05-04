@@ -66,3 +66,13 @@ A search bar with a unique animation effect resembling a starship entering hyper
 🛠️ Stack: ChatGPT, Yourware
 
 A modern-looking Flappy Bird clone.
+
+### Project 7: [Pulse Landing Page](https://github.com/YiweiShen/weekly-vibe-coding/tree/main/projects/project_7_pulse_landing_page)
+
+![](./projects/project_7_pulse_landing_page/img/pulse_landing_page.jpg)
+
+🌐 Deployed at: [https://pulse-landing-page.pages.dev](https://pulse-landing-page.pages.dev)
+
+🛠️ Stack: MetaGPT, Cloudflare Pages
+
+A landing page for a Mac app.
