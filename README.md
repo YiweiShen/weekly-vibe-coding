@@ -76,3 +76,13 @@ A modern-looking Flappy Bird clone.
 🛠️ Stack: MetaGPT, Cloudflare Pages
 
 A landing page for a Mac app.
+
+### Project 8: [Designer Portfolio](https://github.com/YiweiShen/weekly-vibe-coding/tree/main/projects/project_8_designer_portfolio)
+
+![](./projects/project_8_designer_portfolio/img/designer_portfolio.jpg)
+
+🌐 Deployed at: [https://product-designer-tf0q2wc.gamma.site](https://product-designer-tf0q2wc.gamma.site)
+
+🛠️ Stack: gemini-2.0-flash, Gamma
+
+A portfolio website for a designer.
