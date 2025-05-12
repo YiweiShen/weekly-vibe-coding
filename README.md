@@ -12,6 +12,7 @@ A collection of my weekend coding experiments, exploring new ideas and technolog
 ![](./projects/project_1_discover_rome/img/project_1.jpg)
 
 🌐 Deployed at: [https://discover-rome.pages.dev](https://discover-rome.pages.dev)
+![Website](https://img.shields.io/website?url=https://discover-rome.pages.dev)
 
 🛠️ Stack: Next.js, shadcn/ui, Tailwind CSS, TypeScript, GPT-4o, Cursor, Cloudflare Pages, Bolt, Stackblitz
 
@@ -22,6 +23,7 @@ An interactive web app showcasing Rome's hidden gems with curated insights, avai
 ![](./projects/project_2_flying_fishes/src/img/project_2.jpg)
 
 🌐 Deployed at: [https://flying-fishes.pages.dev](https://flying-fishes.pages.dev)
+![Website](https://img.shields.io/website?url=https://flying-fishes.pages.dev)
 
 🛠️ Stack: Lovable, React, Vite, shadcn/ui, Three.js, gpt-4o-copilot, VS Code, Cloudflare Pages, Codehooks
 
@@ -32,6 +34,7 @@ A single-page web app featuring a 3D flying fish animation. A short-term overlay
 ![](./projects/project_3_clerk_vue/img/after_login.jpg)
 
 🌐 Deployed at: [https://clerk-vue.pages.dev](https://clerk-vue.pages.dev)
+![Website](https://img.shields.io/website?url=https://clerk-vue.pages.dev)
 
 🛠️ Stack: Replit, Clerk, Vue 3, Vite, TypeScript, gpt-4o-copilot, Cloudflare Pages
 
@@ -42,6 +45,7 @@ A web app that allows users to sign in with Clerk. The app is built using Vue 3 
 ![](./projects/project_4_cat_adoption_api/img/project_4_cat_adoption_api.jpg)
 
 🌐 Deployed at: [https://p4_test-fastcyanrabbit.web.val.run/docs](https://p4_test-fastcyanrabbit.web.val.run/docs)
+![Website](https://img.shields.io/website?url=https://p4_test-fastcyanrabbit.web.val.run/docs)
 
 🛠️ Stack: Val Town, Townie, Express.js, Swagger UI, Swagger JSDoc, gpt-4o-mini
 
@@ -52,6 +56,7 @@ A RESTful API for managing cat adoption information. It allows users to interact
 ![](./projects/project_5_animate_search/img/animate_search.jpg)
 
 🌐 Deployed at: [https://animate-search.pages.dev](https://animate-search.pages.dev)
+![Website](https://img.shields.io/website?url=https://animate-search.pages.dev)
 
 🛠️ Stack: V0, Next.js, lucide-react, tailwindcss-animate, ChatGPT, Cloudflare Pages
 
@@ -62,6 +67,7 @@ A search bar with a unique animation effect resembling a starship entering hyper
 ![](./projects/project_6_flappy_bird/img/flappy_bird.jpg)
 
 🌐 Deployed at: [https://7tpg5v7ind.app.yourware.so/](https://7tpg5v7ind.app.yourware.so/)
+![Website](https://img.shields.io/website?url=https://7tpg5v7ind.app.yourware.so)
 
 🛠️ Stack: ChatGPT, Yourware
 
@@ -72,6 +78,7 @@ A modern-looking Flappy Bird clone.
 ![](./projects/project_7_pulse_landing_page/img/pulse_landing_page.jpg)
 
 🌐 Deployed at: [https://pulse-landing-page.pages.dev](https://pulse-landing-page.pages.dev)
+![Website](https://img.shields.io/website?url=https://pulse-landing-page.pages.dev)
 
 🛠️ Stack: MetaGPT, Cloudflare Pages
 
@@ -82,6 +89,7 @@ A landing page for a Mac app.
 ![](./projects/project_8_designer_portfolio/img/designer_portfolio.jpg)
 
 🌐 Deployed at: [https://product-designer-tf0q2wc.gamma.site](https://product-designer-tf0q2wc.gamma.site)
+![Website](https://img.shields.io/website?url=https://product-designer-tf0q2wc.gamma.site)
 
 🛠️ Stack: gemini-2.0-flash, Gamma
 
