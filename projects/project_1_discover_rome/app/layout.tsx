@@ -1,5 +1,5 @@
 import './globals.css'
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 import { cn } from '@/lib/utils'
 
@@ -7,8 +7,13 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Discover Rome',
-  description: 'Your guide to the Eternal City',
-  viewport: 'width=device-width, initial-scale=1, maximum-scale=1'
+  description: 'Your guide to the Eternal City'
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1
 }
 
 export default function RootLayout({
@@ -18,12 +23,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="antialiased">
-      <head>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-      </head>
       <body className={cn(inter.className, 'min-h-screen')}>{children}</body>
     </html>
   )
