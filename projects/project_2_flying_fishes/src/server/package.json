@@ -4,6 +4,6 @@
   "main": "index.js",
   "type": "module",
   "dependencies": {
-    "codehooks-js": "^1.2.20"
+    "codehooks-js": "^1.4.3"
   }
 }
